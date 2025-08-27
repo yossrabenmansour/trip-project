@@ -1,42 +1,60 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap");
 body {
   margin: 0;
- padding: 0;
- letter-spacing: 1px;
- height: 800px ;
- background: linear-gradient(to bottom right , #dbeafe, #78b2f5);
- background-repeat: no-repeat;
+  padding: 0;
+  letter-spacing: 1px;
+  height: 900px;
+  background: linear-gradient(to bottom right, #dbeafe, #78b2f5);
+  background-repeat: no-repeat;
 }
 
-.logo-container{
-font-family: "Mozilla Headline", sans-serif;
-font-size: 25px;
-color:#104976;
+.logo-container {
+  font-family: "Mozilla Headline", sans-serif;
+  font-size: 25px;
+  color: #104976;
 }
-.form-container{
+.list-container {
+  background-color: aliceblue;
+  width: 35%;
+  margin: 10px auto;
+  height: 250px;
+  color: #104976;
+  border-radius: 20px;
+  font-family: "Mozilla Headline", sans-serif;
+  padding: 20px;
+
+}
+.list{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.form-container {
   background-color: aliceblue;
   width: 35%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  padding: 10px;
-  height: 400px;
-  color:#104976;
- 
-}
-.form-container h1{
+  padding: 20px;
+  height: 150px;
+  color: #104976;
   font-family: "Mozilla Headline", sans-serif;
 }
-.form-container input[type="text"],
-.form-container  select  {
-  padding: 10px ;
+.form-container h1 {
+  font-family: "Mozilla Headline", sans-serif;
+}
+.form-container input,
+.form-container select {
+  padding: 10px;
   border-radius: 12px;
   border: 1px solid #cbd5e1;
+  font-weight: 700;
   font-size: 16px;
-  
-  margin-right: 10px; 
+   font-family: "Mozilla Headline", sans-serif;
+  margin-right: 10px;
+   color: #104976;
 }
+
 .form-container button {
   padding: 10px 20px;
   border: none;
@@ -48,20 +66,27 @@ color:#104976;
   cursor: pointer;
   transition: all 0.3s ease;
 }
+.list button {
+  border: transparent;
+  cursor: pointer;
+  background-color: aliceblue;
+  margin-right: 20px;
+}
 
 .form-container button:hover {
   background: linear-gradient(to right, #2563eb, #1e40af);
-  transform: translateY(-2px);
+  transform: translateY(2px);
   box-shadow: 0 6px 15px rgba(37, 99, 235, 0.4);
+  
 }
 
-
-
-
 footer {
-  background-color: #76c7ad;
+  background-color: #186aa8;
   text-align: center;
   padding: 13px;
-   color: #5a3e2b;
-   font-size: 20px;
+  color: #e4e4e4;
+  font-size: 20px;
+  position: relative;
+  top: 300px;
+  font-size: 20px;
 }
