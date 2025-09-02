@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   letter-spacing: 1px;
-  height: 900px;
+  height: 630px;
   background: linear-gradient(to bottom right, #dbeafe, #78b2f5);
   background-repeat: no-repeat;
 }
@@ -17,7 +17,7 @@ body {
   background-color: aliceblue;
   width: 35%;
   margin: 10px auto;
-  height: 250px;
+  height: 200px;
   color: #104976;
   border-radius: 20px;
   font-family: "Mozilla Headline", sans-serif;
@@ -87,6 +87,6 @@ footer {
   color: #e4e4e4;
   font-size: 20px;
   position: relative;
-  top: 300px;
+  top: 80px;
   font-size: 20px;
 }
