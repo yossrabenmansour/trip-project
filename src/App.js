@@ -26,6 +26,9 @@ function App() {
       item.map((obj) => (obj.id === id ? { ...obj, packed: !obj.packed } : obj))
     );
   }
+  function handleClearList(){
+    setItem([])
+  }
   return (
     <div className="App">
       <Logo />
@@ -34,6 +37,7 @@ function App() {
         item={item}
         onDeleteItem={handleDeleteItem}
         onToggleItem={handleToggleItem}
+        onClearItem={handleClearList}
       />
       <Stats item={item} />
     </div>
