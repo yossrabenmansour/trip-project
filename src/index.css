@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   letter-spacing: 1px;
-  height: 630px;
+  height: 680px;
   background: linear-gradient(to bottom right, #dbeafe, #78b2f5);
   background-repeat: no-repeat;
 }
@@ -17,7 +17,7 @@ body {
   background-color: aliceblue;
   width: 35%;
   margin: 10px auto;
-  height: 200px;
+  height: 250px;
   color: #104976;
   border-radius: 20px;
   font-family: "Mozilla Headline", sans-serif;
@@ -44,7 +44,7 @@ body {
   font-family: "Mozilla Headline", sans-serif;
 }
 .form-container input,
-.form-container select {
+ select {
   padding: 10px;
   border-radius: 12px;
   border: 1px solid #cbd5e1;
@@ -89,4 +89,9 @@ footer {
   position: relative;
   top: 80px;
   font-size: 20px;
+}
+.action{
+  position: absolute;
+  top: 105%;
+  right: 40%;
 }

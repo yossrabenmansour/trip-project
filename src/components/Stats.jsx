@@ -1,7 +1,14 @@
 export default function Stats({ item }) {
+  if (!item.length){
+    return(
+      <footer>
+        <strong>Let’s get started! Add something to your list 📝</strong>
+      </footer>
+    )
+  }
   const numItem = item.length;
   const numItemPacked = item.filter((obj) => obj.packed).length;
-  const poucentage = numItem===0 ? 0 : Math.round((numItemPacked / numItem) * 100);
+  const poucentage =Math.round((numItemPacked / numItem) * 100);
   return (
     <footer>
       <strong>
